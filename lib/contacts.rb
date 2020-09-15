@@ -1,18 +1,3 @@
-require 'pry'
-def remove_strawberry()
-  let contacts = {
-    "Jon Snow" => {
-      name: "Jon",
-      email: "jon_snow@thewall.we",
-      favorite_ice_cream_flavors: ["chocolate", "vanilla"]
-    },
-    "Freddy Mercury" => {
-      name: "Freddy",
-      email: "freddy@mercury.com",
-      favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
-    }
-  }
-
 def remove_strawberry(contacts)
   contacts.each do |person, contact_details_hash|
     if person == "Freddy Mercury"
@@ -22,3 +7,5 @@ def remove_strawberry(contacts)
         end
       end
     end
+  end
+end
