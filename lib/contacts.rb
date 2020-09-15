@@ -9,6 +9,7 @@ def remove_strawberry(contacts)
         end
       end
     end
+contacts[:"Freddy Mercury"][:favorite_ice_cream_flavors]  
 end
 
 
